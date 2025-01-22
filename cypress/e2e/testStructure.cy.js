@@ -17,4 +17,14 @@ describe("Context : My first Tests", () =>{
     it('Opening a web application', () => {
         cy.visit('https://practice.cydeo.com/');
     })
+    it('Test2', () => {
+        expect(false).to.equal(false);
+    })
+    it('Test3', () => {
+        expect(false).not.to.equal(true);
+    })
+    it('Test4', () => {
+        expect(5).to.equal(5);
+    })
+
 })
