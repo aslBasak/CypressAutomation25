@@ -17,7 +17,9 @@ describe("Navigate to registration page", () => {
          * Math.floor: makes it a whole number
          */
 
-        let email = `formTest${Math.floor(10000+Math.random()*9000000)}@cydeo.com`;
-        cy.get('input[name="email"]').type(email);
+        // let email = `formTest${Math.floor(10000+Math.random()*9000000)}@cydeo.com`;
+        // cy.get('input[name="email"]').type(email);
+        console.log(process);
+
     }
 })
