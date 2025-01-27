@@ -33,7 +33,7 @@ describe("Context : My first Tests", () =>{
                 cy.log(item.text());  // this command write the text at the test console
                 // item.click(); you cannot use cypress click function on jquery element
                 cy.wrap(item).click();
-                cy.contains('click on button four!').should('be.visible');gi
+                cy.contains('click on button four!').should('be.visible');
             }
         })
 })

@@ -10,5 +10,8 @@
   "description": "",
   "dependencies": {
     "cypress": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0"
   }
 }
